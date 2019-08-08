@@ -1,1 +1,16 @@
+<div class="banner">
+    <img class="banner-width" src="../../assets/banner.jpg">
+    <img src="../../assets/avatar-grey.png" class="avatar-banner-position" height="90px" width="90px">
+</div>
+<div>
+    <a routerLink="">Back to list</a>
+</div>
+<div class="content">
+        <h1>{{ details$.name }}</h1>
 
+        <ul>
+          <li><strong>Username:</strong> {{ details$.username }}</li>
+          <li><strong>Email:</strong> {{ details$.email }}</li>
+          <li><strong>Phone:</strong> {{ details$.phone }}</li>
+        </ul>
+</div>
